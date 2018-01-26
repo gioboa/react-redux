@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sideBar {
+  flex: 1 0 0;
+  background-color: #f5f5f5;
+  max-width: 30rem;
+  padding: 3.6rem;
+  overflow: hidden;
+}
+
+.main {
+  flex: 3 0 0;
+  padding: 3.6rem
+}
+
